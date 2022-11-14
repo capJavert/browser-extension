@@ -2,5 +2,19 @@
     "manifest_version": 3,
     "name": "Browser extension",
     "description": "Minimal browser extension template for Manifest v3",
-    "version": "1.0"
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "contentScript.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ],
+            "all_frames": false
+        }
+    ]
 }
