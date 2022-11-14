@@ -1,3 +1,3 @@
 # Browser extension
 
-Minimal browser extension example for Manifest v3.
+Minimal browser extension template for Manifest v3.

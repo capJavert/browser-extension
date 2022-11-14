@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
     "name": "Browser extension",
-    "description": "Minimal browser extension example for Manifest v3",
+    "description": "Minimal browser extension template for Manifest v3",
     "version": "1.0"
 }
