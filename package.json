@@ -1,0 +1,40 @@
+{
+    "name": "browser-extension",
+    "version": "1.0.0",
+    "description": "Minimal browser extension example for Manifest v3",
+    "main": "none",
+    "scripts": {
+        "build": "web-ext build --source-dir src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/capJavert/browser-extension.git"
+    },
+    "keywords": [
+        "browser",
+        "extensions",
+        "manifest",
+        "web-ext",
+        "manifest-version-3",
+        "javascript",
+        "chrome"
+    ],
+    "author": "capJavert",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/capJavert/browser-extension/issues"
+    },
+    "homepage": "https://github.com/capJavert/browser-extension#readme",
+    "devDependencies": {
+        "@types/chrome": "^0.0.198",
+        "eslint": "8.25.0",
+        "eslint-config-next": "12.3.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "next": "^13.0.3",
+        "web-ext": "^7.3.1"
+    },
+    "volta": {
+        "node": "16.13.2"
+    }
+}
